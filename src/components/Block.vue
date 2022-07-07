@@ -4,7 +4,7 @@
     <iframe
       class="pdf-viewer"
       v-show="showPDF"
-      src="/generic-v1-4/web/viewer.html?file=/test.pdf"
+      src="/test.html?file=/test.pdf"
     ></iframe>
     <button class="pdf-close-btn" @click="showPDF = false">点击关闭pdf</button>
   </div>
